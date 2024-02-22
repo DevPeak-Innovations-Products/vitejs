@@ -1,0 +1,11 @@
+@import "../../styles/mixins";
+
+.home-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+  .outlet-container {
+    @include flex-column;
+  }
+}
